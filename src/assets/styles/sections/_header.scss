@@ -1,6 +1,4 @@
-$white-color: #F4F4F4;
-$grey-color: #AAAAAA;
-$black-color: #000000;
+@import "../util/var";
 .header {
     max-width: 1440px;
     height: 40px;
