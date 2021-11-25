@@ -1,0 +1,74 @@
+$white-color: #F4F4F4;
+$grey-color: #AAAAAA;
+$black-color: #000000;
+.header {
+    max-width: 1440px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: $white-color;
+}
+
+.header__text {
+    margin-right: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $grey-color;
+    background-color: $white-color;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.head__logo {
+    height: 99px;
+    padding: 25px 0px 0px 119px;
+}
+
+.nav {
+    padding: 43px 10px 0px 260px;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $black-color;
+}
+
+.nav__product {
+    padding: 0px 100px 0px 0px;
+    transition: all 0.3s ease;
+    color: $black-color;
+}
+
+.nav__show {
+    transition: all 0.3s ease;
+    color: $black-color;
+}
+
+.nav__product:hover {
+    transform: scale(0.5);
+}
+
+.nav__loc {
+    padding: 0px 10px 0px 280px;
+}
+
+.nav__frame {
+    padding: 0px 52px 0px 46px;
+}
