@@ -6,9 +6,10 @@
 }
 
 .catalog__img {
-    width: 610px;
-    padding-left: 24px;
-    padding-bottom: 69px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0px 24px 0px 0px;
 }
 
 .signature {
