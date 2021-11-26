@@ -2,7 +2,9 @@
 .catalog {
     display: flex;
     flex-wrap: wrap;
-    padding: 208px 90px 0px 100px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 208px 0px 0px 90px;
 }
 
 .catalog__img {
