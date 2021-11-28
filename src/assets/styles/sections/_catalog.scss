@@ -1,0 +1,24 @@
+@import "../util/var";
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 208px 0px 0px 25px;
+}
+
+.catalog__img {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0px 24px 32px 0px;
+}
+
+.signature {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: $darkblack-color;
+}
