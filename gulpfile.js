@@ -53,7 +53,8 @@ function fonts() {
 
 function js() {
     return src('src/scripts/index.js')
-        .pipe(dest('build/scripts'))
+
+    .pipe(dest('build/scripts'))
         .pipe(browserSync.stream())
 }
 
@@ -67,6 +68,7 @@ function startWatch() {
     watch('src/assets/styles/**/*.scss', css)
     watch('src/assets/images/**/*', images)
     watch('src/assets/fonts/**/*', fonts)
+    watch('src/scripts/index.js', js)
 }
 
 exports.dev = parallel(browsersync, startWatch, html, css, images, fonts, js)
