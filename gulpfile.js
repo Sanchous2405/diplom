@@ -51,6 +51,12 @@ function fonts() {
         .pipe(browserSync.stream())
 }
 
+function js() {
+    return src('src/scripts/index.js')
+        .pipe(dest('build/scripts'))
+        .pipe(browserSync.stream())
+}
+
 function clear() {
     return del('build', { force: true });
 }
@@ -63,8 +69,8 @@ function startWatch() {
     watch('src/assets/fonts/**/*', fonts)
 }
 
-exports.dev = parallel(browsersync, startWatch, html, css, images, fonts)
-exports.build = series(clear, parallel(html, css, images, fonts))
+exports.dev = parallel(browsersync, startWatch, html, css, images, fonts, js)
+exports.build = series(clear, parallel(html, css, images, fonts, js))
 
 
-exports.default = parallel(browsersync, startWatch, html, css, images, fonts)
+exports.default = parallel(browsersync, startWatch, html, css, images, fonts, js)
