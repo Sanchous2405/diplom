@@ -55,15 +55,14 @@
     padding: 0px 100px 0px 0px;
     transition: all 0.3s ease;
     color: $black-color;
+    &:hover {
+        transform: scale(0.5);
+    }
 }
 
 .nav__show {
     transition: all 0.3s ease;
     color: $black-color;
-}
-
-.nav__product:hover {
-    transform: scale(0.5);
 }
 
 .nav__loc {
