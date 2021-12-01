@@ -1,3 +1,8 @@
+@mixin fontz($f) {
+    font-size: $f;
+    line-height: $l;
+}
+
 .description {
     display: flex;
     justify-content: center;
@@ -8,8 +13,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
+    @include fontz(48px, 56px);
     color: #1A1A1A;
 }
 
@@ -19,8 +23,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 12px;
+    @include fontz(14px, 12px);
     letter-spacing: 0.75px;
     text-transform: uppercase;
     color: #46856E;
@@ -49,8 +52,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
+    @include fontz(24px, 24px);
     color: #1A1A1A;
 }
 
@@ -60,7 +62,6 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #AAAAAA;
+    @include fontz(16px, 24px);
+    color: $grey-color;
 }
