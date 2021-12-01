@@ -1,6 +1,7 @@
 @mixin fontz($f) {
     font-size: $f;
     line-height: $l;
+    color: $c;
 }
 
 .description {
@@ -13,8 +14,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    @include fontz(48px, 56px);
-    color: $darkblack-color;
+    @include fontz(48px, 56px, $darkblack-color);
 }
 
 .touch {
@@ -23,10 +23,9 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    @include fontz(14px, 12px);
+    @include fontz(14px, 12px, $green-color);
     letter-spacing: 0.75px;
     text-transform: uppercase;
-    color: $green-color;
 }
 
 .aspects {
@@ -52,8 +51,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    @include fontz(24px, 24px);
-    color: $darkblack-color;
+    @include fontz(24px, 24px, $darkblack-color);
 }
 
 .caption {
@@ -62,6 +60,5 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    @include fontz(16px, 24px);
-    color: $grey-color;
+    @include fontz(16px, 24px, $grey-color);
 }
