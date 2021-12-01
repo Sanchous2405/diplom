@@ -27,3 +27,15 @@
     border: 5px solid #2f363c;
     background-color: #738290;
 }
+
+#slaid1:checked~.kadoves label[for="slaid1"] {
+    background-color: white;
+}
+
+#slaid2:checked~.kadoves label[for="slaid2"] {
+    background-color: white;
+}
+
+#slaid3:checked~.kadoves label[for="slaid3"] {
+    background-color: white;
+}
