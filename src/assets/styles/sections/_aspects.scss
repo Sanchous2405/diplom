@@ -1,0 +1,72 @@
+@mixin fontz($f, $l, $c) {
+    font-size: $f;
+    line-height: $l;
+    color: $c;
+}
+
+.team {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 83px 0px 0px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(48px, 56px, $darkblack-color);
+}
+
+.touch {
+    padding: 24px 0px 0px 0px;
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(14px, 12px, $green-color);
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+
+.aspects {
+    width: 1042px;
+    max-width: 100%;
+    padding: 91px 0px 0px 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.frame {
+    padding-right: 47px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.names {
+    padding-top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(24px, 24px, $darkblack-color);
+}
+
+.caption {
+    width: 316px;
+    padding-top: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(16px, 24px, $grey-color);
+}
