@@ -1,16 +1,22 @@
+@mixin fontz($f, $l, $c) {
+    font-size: $f;
+    line-height: $l;
+    color: $c;
+}
+
 .reviews {
     width: 1340px;
     padding: 237px 50px 0px 50px;
 }
 
 .take {
-    padding: 240px 283px 0px 275px;
+    padding: 240px 0px 0px 0px;
+    width: 882px;
+    margin: 0 auto;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 46px;
-    line-height: 52px;
-    color: $grey-color;
+    @include fontz(46px, 52px, $grey-color);
 }
 
 .work {
@@ -18,7 +24,5 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 46px;
-    line-height: 52px;
-    color: $black-color;
+    @include fontz(46px, 52px, $black-color);
 }
