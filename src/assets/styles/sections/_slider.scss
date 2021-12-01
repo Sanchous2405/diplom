@@ -54,3 +54,15 @@
     width: 100%;
     flex-shrink: 0;
 }
+
+#slaid1:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translate(0);
+}
+
+#slaid2:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+}
+
+#slaid3:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-200%);
+}
