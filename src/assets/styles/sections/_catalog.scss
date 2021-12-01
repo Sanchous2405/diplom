@@ -2,16 +2,18 @@
 .catalog {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1200px;
     justify-content: center;
     margin: 0 auto;
-    padding: 208px 0px 0px 25px;
+    justify-content: space-between;
+    padding: 208px 0px 0px 0px;
 }
 
 .catalog__img {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    margin: 0px 24px 32px 0px;
+    width: 588px;
+    margin-bottom: 32px;
 }
 
 .signature {

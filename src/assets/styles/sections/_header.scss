@@ -1,7 +1,9 @@
 @import "../util/var";
 .header {
     max-width: 1440px;
+    width: 100%;
     height: 40px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -26,6 +28,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0 auto;
 }
 
 .head__logo {
