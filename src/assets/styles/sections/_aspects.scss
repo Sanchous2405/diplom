@@ -1,9 +1,4 @@
-@mixin fontz($f, $l, $c) {
-    font-size: $f;
-    line-height: $l;
-    color: $c;
-}
-
+@import "../util/mixins";
 .team {
     margin: 0 auto;
     width: 100%;
