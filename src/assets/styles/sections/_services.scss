@@ -1,7 +1,7 @@
 @import "../util/mixins";
 .services {
     margin: 0 auto;
-    width: 1200px;
+    width: 1400px;
     padding: 135px 0px 0px 120px;
     display: flex;
     flex-direction: row;
@@ -32,6 +32,7 @@
 .features {
     padding-top: 20px;
     padding-left: 90px;
+    width: 375px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
