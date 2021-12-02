@@ -1,8 +1,18 @@
+@import "../util/mixins";
 .services {
+    margin: 0 auto;
     width: 1200px;
     padding: 135px 0px 0px 120px;
     display: flex;
     flex-direction: row;
+}
+
+.services1 {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 135px 0px 0px 120px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .line {
@@ -28,20 +38,19 @@
     @include fontz(16px, 24px, $grey-color);
 }
 
-.build {
-    padding-top: 260px;
-    padding-right: 90px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    @include fontz(32px, 36px, $darkblack-color);
-}
-
-.room {
-    padding-top: 20px;
-    padding-right: 90px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    @include fontz(16px, 24px, $grey-color);
-}
+// .headline__build {
+//     padding-top: 260px;
+//     padding-right: 90px;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     @include fontz(32px, 36px, $darkblack-color);
+// }
+// .room {
+//     padding-top: 20px;
+//     padding-right: 90px;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     @include fontz(16px, 24px, $grey-color);
+// }
