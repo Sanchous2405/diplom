@@ -16,9 +16,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
-    line-height: 36px;
-    color: #1A1A1A;
+    @include fontz(32px, 36px, $darkblack-color);
 }
 
 .features {
@@ -27,9 +25,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #AAAAAA;
+    @include fontz(16px, 24px, $grey-color);
 }
 
 .build {
@@ -38,9 +34,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
-    line-height: 36px;
-    color: #1A1A1A;
+    @include fontz(32px, 36px, $darkblack-color);
 }
 
 .room {
@@ -49,7 +43,5 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #AAAAAA;
+    @include fontz(16px, 24px, $grey-color);
 }
