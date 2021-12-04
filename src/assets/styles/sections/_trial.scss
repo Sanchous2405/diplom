@@ -65,3 +65,13 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+.terms {
+    padding-top: 26px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(12px, 14px, $grey-color);
+}
