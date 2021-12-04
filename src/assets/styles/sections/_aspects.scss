@@ -65,3 +65,19 @@
     font-weight: normal;
     @include fontz(16px, 24px, $grey-color);
 }
+
+@media screen and (min-width: 320px)and (max-width: 768px) {
+    .aspects {
+        display: flex;
+        flex-direction: column;
+    }
+    .description {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .touch {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+}

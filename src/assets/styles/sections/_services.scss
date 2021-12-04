@@ -1,0 +1,40 @@
+@import "../util/mixins";
+.services {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 135px 0px 0px 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.services1 {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 135px 0px 0px 120px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    padding-top: 260px;
+    padding-left: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(32px, 36px, $darkblack-color);
+}
+
+.features {
+    padding-top: 20px;
+    padding-left: 90px;
+    width: 375px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(16px, 24px, $grey-color);
+}
