@@ -75,3 +75,18 @@
     font-weight: normal;
     @include fontz(12px, 14px, $grey-color);
 }
+
+@media screen and (min-width: 320px)and (max-width: 768px) {
+    .icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .free:first-child {
+        padding-right: 0px;
+    }
+    .free:nth-child(2) {
+        padding-right: 0px;
+    }
+}
