@@ -3,3 +3,19 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.day {
+    padding-top: 63px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    @include fontz(46px, 51px, $black-color);
+    text-align: center;
+}
+
+.icon {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
