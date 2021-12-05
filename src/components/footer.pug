@@ -3,38 +3,40 @@ section.main
     div.links
       img(src="/assets/images/51.png", alt="")
     div.mainLink
+      mixin mainLink2(name)
+        a.mainLink2= name
+      ul.links2
+        +mainLink2('About')
+        +mainLink2('Compare ')
+        +mainLink2('Reviews')
+        +mainLink2('Risk-free trial')
+        +mainLink2('Carreers')
+        +mainLink2('Press')
+        +mainLink2('Podcast')
+        +mainLink2('Blog')
       ul.links2 
-        a(href="").mainLink2 About
-        a(href="").mainLink2 Compare 
-        a(href="").mainLink2 Reviews
-        a(href="").mainLink2 Risk-free trial
-        a(href="").mainLink2 Carreers
-        a(href="").mainLink2 Press
-        a(href="").mainLink2 Podcast
-        a(href="").mainLink2 Blog
+        +mainLink2('Showrooms')
+        +mainLink2('New York ')
+        +mainLink2('London')
+        +mainLink2('Paris')
+        +mainLink2('Copenhagen')
+        +mainLink2('Los Angeles')
+        +mainLink2('Berlin')
+        +mainLink2('Belgium')
+        +mainLink2('Virtual Demo')
       ul.links2 
-        a(href="").mainLink2 Showrooms
-        a(href="").mainLink2 New York 
-        a(href="").mainLink2 London
-        a(href="").mainLink2 Paris
-        a(href="").mainLink2 Copenhagen
-        a(href="").mainLink2 Los Angeles
-        a(href="").mainLink2 Berlin
-        a(href="").mainLink2 Belgium
-        a(href="").mainLink2 Virtual Demo
+        +mainLink2('Support')
+        +mainLink2('FAQ  ')
+        +mainLink2('Booth Assembly')
+        +mainLink2('Delivery')
+        +mainLink2('Room Service')
+        +mainLink2('Warranty')
+        +mainLink2('Terms of Use')
+        +mainLink2('Privacy Policy')
+        +mainLink2('Copyright')
       ul.links2 
-        a(href="").mainLink2 Support
-        a(href="").mainLink2 FAQ 
-        a(href="").mainLink2 Booth Assembly
-        a(href="").mainLink2 Delivery
-        a(href="").mainLink2 Room Service
-        a(href="").mainLink2 Warranty
-        a(href="").mainLink2 Terms of Use
-        a(href="").mainLink2 Privacy Policy
-        a(href="").mainLink2 Copyright
-      ul.links2 
-        a(href="").mainLink2 Support
-        a(href="").mainLink2 599 Broadway, FL 9 New York, NY 10012 
+        +mainLink2('Support')
+        +mainLink2('599 Broadway, FL 9 New York, NY 10012 ')
     ul.links6 
         a(href="").mainLink6 Follow us
         a(href="").soz 
@@ -67,7 +69,7 @@ section.main
 
 
 
-      
 
-      
-    
+
+
+
