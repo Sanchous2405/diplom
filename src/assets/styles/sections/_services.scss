@@ -38,3 +38,25 @@
     font-weight: normal;
     @include fontz(16px, 24px, $grey-color);
 }
+
+@media screen and (min-width: 320px)and (max-width: 1024px) {
+    .services {
+        width: 320px;
+        padding: 50px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .services1 {
+        width: 320px;
+        padding: 50px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .headline {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+    .features {
+        padding-left: 0px;
+    }
+}
